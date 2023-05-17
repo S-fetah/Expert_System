@@ -1,0 +1,158 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* GitHub dark theme colors */
+:root {
+  --bg-color: #0d1117;
+  --fg-color: #c9d1d9;
+  --accent-color: #58a6ff;
+  --border-color: #21262d;
+  --input-bg-color: #161b22;
+  --input-border-color: #21262d;
+}
+
+/* Reset default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styles */
+body {
+  /* background-image: url("/phoneWallpaper.jpg"); */
+  /* background-position: right; */
+  /* background-size: cover; */
+  /* background-size: 60%; */
+
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-color: var(--bg-color);
+  color: white;
+  /* color: var(--fg-color); */
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+h1 {
+  color: white;
+  margin: 1rem;
+  text-align: center;
+}
+
+/* Form styles */
+form {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 5px auto;
+  max-width: 600px;
+  width: 90%;
+}
+
+/* Input styles */
+input,
+select {
+  background-color: var(--input-bg-color);
+  border: 1px solid var(--input-border-color);
+  border-radius: 5px;
+  color: var(--fg-color);
+  font-size: 1rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+/* Button styles */
+button {
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: rem;
+  padding: 0.5rem;
+  width: 200px;
+}
+
+/* Label styles */
+label {
+  margin: 0.5rem;
+}
+
+/* Child styles */
+.child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*  
+body {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding-top: 100px;
+}
+.container {
+  position: relative;
+}
+
+.all {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin: auto;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: space-between;
+}
+.child {
+  padding: 10px;
+  width: 70%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+label {
+  margin-right: 25px;
+}
+input {
+  width: 300px;
+  height: 25px;
+  text-align: center;
+  background-color: #ffffff95;
+  border: 1px solid #00000096;
+  color: #222;
+  border-radius: 4px;
+  font-weight: bold;
+}
+select {
+  width: 300px;
+  background-color: #ffffff95;
+  border: 1px solid #00000096;
+  border-radius: 4px;
+  height: 25px;
+  color: #222;
+  text-align: center;
+}
+button {
+  width: 50px;
+  padding: 5px;
+  border: 1px solid white;
+  color: white;
+  background-color: #23272a;
+}
+*/

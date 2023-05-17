@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="./style.css" /> -->
+    <title>PHONE STORE</title>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        border-radius: 5px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      /* GitHub dark theme colors */
+      :root {
+        --bg-color: #0d1117;
+        --fg-color: #c9d1d9;
+        --accent-color: #58a6ff;
+        --border-color: #21262d;
+        --input-bg-color: #161b22;
+        --input-border-color: #21262d;
+      }
+
+      /* Reset default styles */
+      * {
+        box-sizing: border-box;
+        margin: 5px;
+        padding: 0;
+      }
+
+      /* Body styles */
+      body {
+        background-repeat: no-repeat;
+        background-clip: border-box;
+        background-color: var(--bg-color);
+        color: white;
+        /* color: var(--fg-color); */
+        font-family: Arial, sans-serif;
+        font-size: 11px;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Header styles */
+      h1 {
+        color: white;
+        margin: 1rem auto;
+        text-align: center;
+      }
+      main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px 10px;
+      }
+      div {
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 10px;
+        color: #50fa7b;
+      }
+      p {
+        text-align: center;
+        margin: 10px auto;
+        font-size: large;
+      }
+      p > a {
+        text-decoration: none;
+        /* color: white; */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <% if (data.length === 0 ) { %>
+      <h1>...Oops No Matches!:</h1>
+      <% } else { %>
+      <h1>* Suggested Phones Are:</h1>
+      <% } %>
+    </header>
+    <main>
+      <% data.forEach(phone => { %>
+      <div>
+        <h1>Phone Name : <%= phone.name %></h1>
+        <h2>Price: <%= phone.price %>$</h2>
+        <h2>Camera Quality: <%= phone["camera Quality"] %></h2>
+        <h2>Screen Size: <%= phone.screen_size %></h2>
+        <h2>Battery: <%= phone.battery %></h2>
+      </div>
+      <% }); %>
+    </main>
+    <footer>
+      <% if (data.length === 0) { %>
+      <p>
+        No phones match your search criteria. Feel free to
+        <a href="/create">add your own phone</a>!
+      </p>
+      <% } else { %>
+      <p>
+        Haven't found the phone you're looking for?
+        <a href="/create">Search more here!</a>
+      </p>
+      <% } %>
+      <!-- <% if (data.length === 0 ) { %>
+      <p>
+        0 Phones Matches , Feel Free to
+        <a href="/create">Add Yours Here!</a>
+      </p>
+      <% } else { %>
+      <p>
+        Still Havent Found your Wanted Phone
+        <a href="/create">Add Yours Here!</a>
+      </p>
+      <% } %> -->
+    </footer>
+
+    <!-- <script src="./main.js"></script> -->
+  </body>
+</html>

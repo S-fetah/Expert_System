@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="./style.css" /> -->
+    <title>PHONE STORE</title>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        border-radius: 5px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      /* GitHub dark theme colors */
+      :root {
+        --bg-color: #0d1117;
+        --fg-color: #c9d1d9;
+        --accent-color: #58a6ff;
+        --border-color: #21262d;
+        --input-bg-color: #161b22;
+        --input-border-color: #21262d;
+      }
+
+      /* Reset default styles */
+      * {
+        box-sizing: border-box;
+        margin: 5px;
+        padding: 0;
+      }
+
+      /* Body styles */
+      body {
+        background-repeat: no-repeat;
+        background-clip: border-box;
+        background-color: var(--bg-color);
+        color: white;
+        /* color: var(--fg-color); */
+        font-family: Arial, sans-serif;
+        font-size: 11px;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Header styles */
+      h1,
+      h2 {
+        color: white;
+        margin: 1rem auto;
+        text-align: center;
+      }
+
+      main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px 10px;
+      }
+      div {
+        display: grid;
+
+        grid-template-columns: auto 1fr;
+        grid-template-rows: repeat(1fr, 2);
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 5px;
+        /* color: #50fa7b; */
+        color: white;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+      }
+      p {
+        color: white;
+        text-align: center;
+        margin: 10px auto;
+        font-size: large;
+      }
+      p > a {
+        text-decoration: none;
+        /* color: white; */
+      }
+      #go-home-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: none;
+      }
+
+      .show-button {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <% if (data.length === 0 ) { %>
+      <h1>...Oops try again!:</h1>
+      <a href="/home"> Click here</a>
+      <% } else { %>
+      <h1>* Suggested Phones Are:</h1>
+      <% } %>
+    </header>
+    <main>
+      <% data.forEach(phone => { %>
+      <a id="go-home-button" href="#home">Go Home</a>
+      <div>
+        <h2>Phone Name : <%= phone.name %></h2>
+        <img
+          style="margin-left: 50px"
+          src="<%= phone.img %>"
+          alt=""
+          srcset=""
+          width="100"
+          height="180"
+        />
+
+        <h3>
+          <p style="margin-left: -25px">description:</p>
+          <br />
+          <%= phone.description %>$
+        </h3>
+        <a href="">Add</a>
+      </div>
+      <% }); %>
+    </main>
+    <footer>
+      <!-- <% if (data.length === 0 ) { %>
+      <p>
+        0 Phones Matches , Feel Free to
+        <a href="/create">Add Yours Here!</a>
+      </p>
+      <% } else { %>
+      <p>
+        Still Havent Found your Wanted Phone
+        <a href="/create">Add Yours Here!</a>
+      </p>
+      <% } %> -->
+    </footer>
+    <script>
+      window.onload = () => {
+        window.addEventListener("scroll", function () {
+          var goHomeButton = document.getElementById("go-home-button");
+          var main = document.querySelector("main");
+          var scrollPosition =
+            window.pageYOffset || document.documentElement.scrollTop;
+
+          if (scrollPosition > main.offsetTop) {
+            goHomeButton.classList.add("show-button");
+          } else {
+            goHomeButton.classList.remove("show-button");
+          }
+        });
+      };
+    </script>
+    <!-- <script src="./main.js"></script> -->
+  </body>
+</html>

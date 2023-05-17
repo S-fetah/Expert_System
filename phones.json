@@ -1,0 +1,585 @@
+
+     [
+      {
+        "name": "Samsung Galaxy S21 Ultra",
+        "price": 1199,
+        "camera_quality": "108MP",
+        "battery": "5000mAh",
+        "screen_size": "6.8 inches"
+      },
+      {
+        "name": "Samsung Galaxy S21+",
+        "price": 999,
+        "camera_quality": "12MP",
+        "battery": "4800mAh",
+        "screen_size": "6.7 inches"
+      },
+      {
+        "name": "Samsung Galaxy S21",
+        "price": 799,
+        "camera_quality": "12MP",
+        "battery": "4000mAh",
+        "screen_size": "6.2 inches"
+      },
+      {
+        "name": "Samsung Galaxy Note 20 Ultra",
+        "price": 1299,
+        "camera_quality": "108MP",
+        "battery": "4500mAh",
+        "screen_size": "6.9 inches"
+      },
+      {
+        "name": "Samsung Galaxy Note 20",
+        "price": 999,
+        "camera_quality": "64MP",
+        "battery": "4300mAh",
+        "screen_size": "6.7 inches"
+      },
+      {
+        "phone": "Samsung Galaxy S20 FE",
+        "price": 699,
+        "camera_quality": "12MP",
+        "battery": "4500mAh",
+        "screen_size": "6.5 inches"
+      },
+      {
+        "name": "Samsung Galaxy A71 5G",
+        "price": 599,
+        "camera_quality": "64MP",
+        "battery": "4500mAh",
+        "screen_size": "6.7 inches"
+      },
+      {
+        "name": "Samsung Galaxy A51",
+        "price": 399,
+        "camera_quality": "48MP",
+        "battery": "4000mAh",
+        "screen_size": "6.5 inches"
+      },
+      {
+        "name": "Samsung Galaxy A21s",
+        "price": 199,
+        "camera_quality": "48MP",
+        "battery": "5000mAh",
+        "screen_size": "6.5 inches"
+      },
+      {
+        "name": "Samsung Galaxy M31",
+        "price": 249,
+        "camera_quality": "64MP",
+        "battery": "6000mAh",
+        "screen_size": "6.4 inches"
+      },
+      {
+        "name": "Samsung Galaxy M51",
+        "price": 329,
+        "camera_quality": "64MP",
+        "battery": "7000mAh",
+        "screen_size": "6.7 inches"
+      },
+      {
+        "name": "Samsung Galaxy A12",
+        "price": 149,
+        "camera_quality": "48MP",
+        "battery": "5000mAh",
+        "screen_size": "6.5 inches"
+      },
+      {
+        "name": "Samsung Galaxy A02s",
+        "price": 109,
+        "camera_quality": "13MP",
+        "battery": "5000mAh",
+        "screen_size": "6.5 inches"
+      },
+      {
+        "name": "Samsung Galaxy A10s",
+        "price": 149,
+        "camera_quality": "13MP",
+        "battery": "4000mAh",
+        "screen_size": "6.2 inches"
+      },
+      {
+        "name": "iPhone 13 Pro Max",
+        "price": 1099,
+        "camera_quality": "12MP",
+        "battery": "4352mAh",
+        "screen_size": "6.7 inches"
+      },
+      {
+        "name": "iPhone 13 Pro",
+        "price": 999,
+        "camera_quality": "12MP",
+        "battery": "3095mAh",
+        "screen_size": "6.1 inches"
+      },
+      {
+        "name": "iPhone 13",
+        "price": 799,
+        "camera_quality": "12MP",
+        "battery": "2947mAh",
+        "screen_size": "6.1 inches"
+      },
+      {
+        "name": "iPhone 12 Pro Max",
+        "price": 1099,
+        "camera_quality": "12MP",
+        "battery": "3687mAh",
+        "screen_size": "6.7 inches"
+      },
+      {
+        "name": "iPhone 12 Pro",
+        "price": 999,
+        "camera_quality": "12MP",
+        "battery": "2815mAh",
+        "screen_size": "6.1 inches"
+      },
+      {
+        "name": "iPhone 12",
+        "price": 799,
+        "camera_quality": "12MP",
+        "battery": "2815mAh",
+        "screen_size": "6.1 inches"
+      },
+      {
+        "name": "iPhone SE (2020)",
+        "price": 399,
+        "camera_quality": "12MP",
+        "battery": "1821mAh",
+        "screen_size": "4.7 inches"
+      },
+      {
+        "name": "iPhone 11 Pro Max",
+        "price": 1099,
+        "camera_quality": "12MP",
+        "battery": "3969mAh",
+        "screen_size": "6.5 inches"
+      },
+      {
+        "name": "iPhone 11 Pro",
+        "price": 999,
+        "camera_quality": "12MP",
+        "battery": "3190mAh",
+        "screen_size": "5.8 inches"
+      },
+      {
+        "name": "iPhone 11",
+        "price": 699,
+        "camera_quality": "12MP",
+        "battery": "3110mAh",
+        "screen_size": "6.1 inches"
+      },
+      {
+        "name": "iPhone XS Max",
+        "price": 1099,
+        "camera_quality": "12MP",
+        "battery": "3174mAh",
+        "screen_size": "6.5 inches"
+      },
+      {
+        "name": "iPhone XS",
+        "price": 999,
+        "camera_quality": "12MP",
+        "battery": "2658mAh",
+        "screen_size": "5.8 inches"
+      },
+      {
+        "name": "iPhone XR",
+        "price": 749,
+        "camera_quality": "12MP",
+        "battery": "2942mAh",
+        "screen_size": "6.1 inches"
+      },
+      {
+        "name": "Xiaomi Mi 11",
+        "price": 749,
+        "camera_quality": "108MP",
+        "battery": "4600mAh",
+        "screen_size": "6.81 inches"
+      },
+      {
+        "name": "Xiaomi Mi 11 Ultra",
+        "price": 1199,
+        "camera_quality": "50MP",
+        "battery": "5000mAh",
+        "screen_size": "6.81 inches"
+      },
+      {
+        "name": "Xiaomi Mi 10T Pro",
+        "price": 599,
+        "camera_quality": "108MP",
+        "battery": "5000mAh",
+        "screen_size": "6.67 inches"
+      },
+      {
+        "name": "Xiaomi Mi 10T",
+        "price": 499,
+        "camera_quality": "64MP",
+        "battery": "5000mAh",
+        "screen_size": "6.67 inches"
+      },
+      {
+        "name": "Xiaomi Poco X3 Pro",
+        "price": 249,
+        "camera_quality": "48MP",
+        "battery": "5160mAh",
+        "screen_size": "6.67 inches"
+      },
+      {
+        "name": "Xiaomi Poco X3",
+        "price": 199,
+        "camera_quality": "64MP",
+        "battery": "6000mAh",
+        "screen_size": "6.67 inches"
+      },
+      {
+        "name": "Xiaomi Redmi Note 10 Pro",
+        "price": 279,
+        "camera_quality": "108MP",
+        "battery": "5020mAh",
+        "screen_size": "6.67 inches"
+      },
+      {
+        "name": "Xiaomi Redmi Note 10S",
+        "price": 229,
+        "camera_quality": "64MP",
+        "battery": "5000mAh",
+        "screen_size": "6.43 inches"
+      },
+      {
+        "name": "Xiaomi Redmi 9",
+        "price": 149,
+        "camera_quality": "13MP",
+        "battery": "5020mAh",
+        "screen_size": "6.53 inches"
+      },
+      {
+        "name": "Xiaomi Redmi 9C",
+        "price": 99,
+        "camera_quality": "13MP",
+        "battery": "5000mAh",
+        "screen_size": "6.53 inches"
+      },
+      {
+        "name": "Xiaomi Mi Note 10 Lite",
+        "price": 279,
+        "camera_quality": "64MP",
+        "battery": "5260mAh",
+        "screen_size": "6.47 inches"
+      },
+       {
+            "name": "Huawei Mate 40 Pro",
+            "price": 1199,
+            "camera_quality": "50MP ",
+            "battery": "4400mAh",
+            "screen_size": "6.76 inches"
+          },
+          {
+            "name": "Huawei P40 Pro",
+            "price": 899,
+            "camera_quality": "50MP ",
+            "battery": "4200mAh",
+            "screen_size": "6.58 inches"
+          },
+          {
+            "name": "Huawei P30 Pro",
+            "price": 749,
+            "camera_quality": "40MP ",
+            "battery": "4200mAh",
+            "screen_size": "6.47 inches"
+          },
+          {
+            "name": "Huawei Nova 8 Pro",
+            "price": 699,
+            "camera_quality": "64MP ",
+            "battery": "4000mAh",
+            "screen_size": "6.72 inches"
+          },
+          {
+            "name": "Huawei Nova 8",
+            "price": 599,
+            "camera_quality": "64MP ",
+            "battery": "3800mAh",
+            "screen_size": "6.57 inches"
+          },
+          {
+            "name": "Huawei Mate 30 Pro",
+            "price": 799,
+            "camera_quality": "40MP ",
+            "battery": "4500mAh",
+            "screen_size": "6.53 inches"
+          },
+          {
+            "name": "Huawei P40 Lite",
+            "price": 299,
+            "camera_quality": "48MP ",
+            "battery": "4200mAh",
+            "screen_size": "6.4 inches"
+          },
+          {
+            "name": "Huawei P Smart 2021",
+            "price": 199,
+            "camera_quality": "48MP ",
+            "battery": "5000mAh",
+            "screen_size": "6.67 inches"
+          },
+          {
+            "name": "Huawei Y9a",
+            "price": 249,
+            "camera_quality": "64MP ",
+            "battery": "4200mAh",
+            "screen_size": "6.63 inches"
+          },
+          {
+            "name": "Huawei Y6p",
+            "price": 149,
+            "camera_quality": "13MP ",
+            "battery": "5000mAh",
+            "screen_size": "6.3 inches"
+          },
+          {
+            "name": "Huawei P30 Lite",
+            "price": 299,
+            "camera_quality": "48MP ",
+            "battery": "3340mAh",
+            "screen_size": "6.15 inches"
+          },
+          {
+            "name": "LG Wing 5G",
+            "price": 999,
+            "camera_quality": "64MP ",
+            "battery": "4000mAh",
+            "screen_size": "6.8 inches"
+          },
+          {
+            "name": "LG V60 ThinQ 5G",
+            "price": 899,
+            "camera_quality": "64MP ",
+            "battery": "5000mAh",
+            "screen_size": "6.8 inches"
+          },
+          {
+            "name": "LG Velvet",
+            "price": 599,
+            "camera_quality": "48MP ",
+            "battery": "4300mAh",
+            "screen_size": "6.8 inches"
+          },
+          {
+            "name": "LG G8X ThinQ Dual Screen",
+            "price": 699,
+            "camera_quality": "12MP ",
+            "battery": "4000mAh",
+            "screen_size": "6.4 inches"
+          },
+          {
+            "name": "LG G8 ThinQ",
+            "price": 599,
+            "camera_quality": "12MP ",
+            "battery": "3500mAh",
+            "screen_size": "6.1 inches"
+          },
+          {
+            "name": "LG Stylo 6",
+            "price": 219,
+            "camera_quality": "13MP ",
+            "battery": "4000mAh",
+            "screen_size": "6.8 inches"
+          },
+          {
+            "name": "LG K92 5G",
+            "price": 359,
+            "camera_quality": "64MP ",
+            "battery": "4000mAh",
+            "screen_size": "6.7 inches"
+          },
+          {
+            "name": "LG K51S",
+            "price": 199,
+            "camera_quality": "32MP ",
+            "battery": "4000mAh",
+            "screen_size": "6.55 inches"
+          },
+          {
+            "name": "LG K41S",
+            "price": 149,
+            "camera_quality": "13MP ",
+            "battery": "4000mAh",
+            "screen_size": "6.55 inches"
+          },
+          {
+            "name": "LG K31",
+            "price": 139,
+            "camera_quality": "13MP ",
+            "battery": "3000mAh",
+            "screen_size": "5.7 inches"
+          },
+          {
+            "name": "LG Stylo 5",
+            "price": 219,
+            "camera_quality": "13MP ",
+            "battery": "3500mAh",
+            "screen_size": "6.2 inches"
+          },
+          {
+            "name": "LG V40 ThinQ",
+            "price": 399,
+            "camera_quality": "12MP ",
+            "battery": "3300mAh",
+            "screen_size": "6.4 inches"
+          },
+          {
+            "name": "Oppo Find X3 Pro",
+            "price": 1199,
+            "camera_quality": "50MP ",
+            "battery": "4500mAh",
+            "screen_size": "6.7 inches"
+          },
+          {
+            "name": "Oppo Reno 5 Pro+ 5G",
+            "price": 799,
+            "camera_quality": "50MP",
+            "battery": "4500mAh",
+            "screen_size": "6.55 inches"
+          },
+          {
+            "name": "Oppo Reno 4 Pro 5G",
+            "price": 749,
+            "camera_quality": "48MP ",
+            "battery": "4000mAh",
+            "screen_size": "6.55 inches"
+          },
+          {
+            "name": "Oppo A94 5G",
+            "price": 349,
+            "camera_quality": "48MP ",
+            "battery": "4310mAh",
+            "screen_size": "6.43 inches"
+          },
+          {
+            "name": "Oppo A54 5G",
+            "price": 299,
+            "camera_quality": "48MP ",
+            "battery": "5000mAh",
+            "screen_size": "6.5 inches"
+          },
+          {
+            "name": "Oppo F19 Pro+ 5G",
+            "price": 369,
+            "camera_quality": "64MP ",
+            "battery": "4310mAh",
+            "screen_size": "6.43 inches"
+          },
+          {
+            "name": "Oppo A15s",
+            "price": 149,
+            "camera_quality": "13MP ",
+            "battery": "4230mAh",
+            "screen_size": "6.52 inches"
+          },
+          {
+            "name": "Oppo A53",
+            "price": 189,
+            "camera_quality": "13MP ",
+            "battery": "5000mAh",
+            "screen_size": "6.5 inches"
+          },
+          {
+            "name": "Oppo A12",
+            "price": 129,
+            "camera_quality": "13MP ",
+            "battery": "4230mAh",
+            "screen_size": "6.22 inches"
+          },
+          {
+            "name": "Oppo A31",
+            "price": 149,
+            "camera_quality": "12MP ",
+            "battery": "4230mAh",
+            "screen_size": "6.5 inches"
+          },
+          {
+            "name": "Oppo Reno 3 Pro",
+            "price": 549,
+            "camera_quality": "64MP ",
+            "battery": "4025mAh",
+            "screen_size": "6.4 inches"
+          },
+          {
+            "name": "Realme GT",
+            "price": 399,
+            "camera_quality": "64MP ",
+            "battery": "4500mAh",
+            "screen_size": "6.43 inches"
+          },
+          {
+            "name": "Realme X7 Pro 5G",
+            "price": 449,
+            "camera_quality": "64MP ",
+            "battery": "4500mAh",
+            "screen_size": "6.55 inches"
+          },
+          {
+            "name": "Realme 8 Pro",
+            "price": 279,
+            "camera_quality": "108MP ",
+            "battery": "4500mAh",
+            "screen_size": "6.4 inches"
+          },
+          {
+            "name": "Realme 7 Pro",
+            "price": 299,
+            "camera_quality": "64MP ",
+            "battery": "4500mAh",
+            "screen_size": "6.4 inches"
+          },
+          {
+            "name": "Realme 7i",
+            "price": 179,
+            "camera_quality": "64MP ",
+            "battery": "5000mAh",
+            "screen_size": "6.5 inches"
+          },
+          {
+            "name": "Realme Narzo 30 Pro 5G",
+            "price": 199,
+            "camera_quality": "48MP ",
+            "battery": "5000mAh",
+            "screen_size": "6.5 inches"
+          },
+          {
+            "name": "Realme C25",
+            "price": 149,
+            "camera_quality": "13MP ",
+            "battery": "6000mAh",
+            "screen_size": "6.5 inches"
+          },
+          {
+            "name": "Realme C21",
+            "price": 119,
+            "camera_quality": "13MP ",
+            "battery": "5000mAh",
+            "screen_size": "6.5 inches"
+          },
+          {
+            "name": "Realme 7 5G",
+            "price": 279,
+            "camera_quality": "48MP ",
+            "battery": "5000mAh",
+            "screen_size": "6.5 inches"
+          },
+          {
+            "name": "Realme 6 Pro",
+            "price": 299,
+            "camera_quality": "64MP ",
+            "battery": "4300mAh",
+            "screen_size": "6.6 inches"
+          },
+          {
+            "name": "Realme 6",
+            "price": 199,
+            "camera_quality": "64MP ",
+            "battery": "4300mAh",
+            "screen_size": "6.5 inches"
+          }    
+    ]
+       
